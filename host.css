@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+ table {
+  width: 90%;
+  margin: auto;
+  border-spacing: 0;
+/*alternating bgcolor(odd) is in the html menu header*/
+  background-color: #A9A9A9;
+  border: solid 2px #231814;
+}
+ td, th {
+padding: 10px;
+}
+ tr:nth-of-type(odd) {
+background-color: #C0C0C0;
+}
+header, nav, main, footer { display: block; }
+body { background-color: #F5F5F5;
+      color: #221811;
+      font-family: Verdana, Arial, sans-serif;
+	  background-image: url(background.gif);
+}
+h1 { padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+h4 { background-color: #F5F5F5;
+    font-size: 1.2em;
+	padding-left:   .5em;
+	padding-bottom: .25em;
+    border-bottom: solid 2px #2F4F4F;
+	padding-bottom: 0;
+	clear: left;
+  font-weight: normal;
+}
+
+input, textarea{
+  display: block;
+  margin-bottom: 1em;
+}
+#tr1 {
+  text-align: center;
+  text-transform: uppercase;
+}
